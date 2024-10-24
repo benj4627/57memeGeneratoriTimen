@@ -8,6 +8,7 @@
 
 body {
     min-height: 100vh;
+    font-family: Helvetica, sans-serif
 }
 
 a {
@@ -44,4 +45,33 @@ button,
 input,
 form {
     font: inherit;
+}
+
+/* memeContainer og memeContent */
+.memeContainer {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 1rem;
+   box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.199);
+   border-radius: 10px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   gap: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.memeContent {
+    padding: 1rem;
+    text-align: center;
 }
